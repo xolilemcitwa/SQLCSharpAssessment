@@ -11,8 +11,8 @@ namespace Roulette.Api.Data
         }
 
         public DbSet<Bet> Bets { get; set; }
-        public DbSet<BetType> { get; set; }
-        public DbSet<BetType> { get; set; }
+        public DbSet<BetType> BetTypes { get; set; }
+        public DbSet<BetDetail> BetDetails { get; set; }
         public DbSet<Spin> Spins { get; set; }
         public DbSet<Payout> Payouts { get; set; }
 
